@@ -26,6 +26,37 @@ void setup() {
   pinMode(GREEN_3, OUTPUT);
 
 }
+void White(){
+
+digitalWrite(RED, HIGH);
+
+digitalWrite(GREEN, HIGH);
+
+digitalWrite(BLUE, HIGH);
+digitalWrite(RED_2, HIGH);
+digitalWrite(GREEN_2, HIGH);
+
+digitalWrite(BLUE_2, HIGH);
+digitalWrite(RED_3, HIGH);
+
+digitalWrite(BLUE_3, HIGH);
+digitalWrite(GREEN_3, HIGH);
+delay(1000);
+digitalWrite(RED, LOW);
+
+digitalWrite(GREEN, LOW);
+
+digitalWrite(BLUE, LOW);
+digitalWrite(RED_2, LOW);
+digitalWrite(GREEN_2, LOW);
+
+digitalWrite(BLUE_2, LOW);
+digitalWrite(RED_3, LOW);
+
+digitalWrite(BLUE_3, LOW);
+digitalWrite(GREEN_3, LOW);
+
+}
 
 void France(){
  
@@ -136,11 +167,18 @@ void Gvinea(){
 void loop() {
 
   France();
+  White();
   Italy();
+  White();
   Romania();
+  White();
   Irlandia();
+  White();
   Mali();
+  White();
   Nigeria();
+  White();
   Gvinea();
+  White();
   
 }
